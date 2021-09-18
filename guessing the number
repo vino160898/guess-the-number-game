@@ -1,0 +1,12 @@
+from random import randint as pick
+mind=pick(1,51)
+while True:
+	no=int(input("Enter the number between 1 and 51 :  "))
+	if no ==mind:
+		print("yes, Your guess is CORRECT🤗️..👍️")
+		break
+	else:
+		if no>mind:
+			print("Your guess is too LARGE...🤔️")
+		else:
+			print("Your guess is too SMALL...🤔️")
